@@ -1,5 +1,3 @@
-"""simple parser by M1 (with step‑by‑step comments)"""
-
 # ------------------------------------------------------------
 # Function: extract_answers_sequence
 #   read one respondent txt file → list of 100 ints
