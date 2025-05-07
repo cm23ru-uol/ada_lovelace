@@ -16,4 +16,5 @@ def collate_answer_respondent_index(string data_folder_path)
 #• Output: Single file collated_answers.txt in output/, with respondent
 #sections separated by a line containing one asterisk (*).
 
-#• Purpose: Combine all respondent data into a unified file.
+#• Purpose: Combine all respondent data into a unified file
+
