@@ -34,10 +34,18 @@ for i in range(1, 26):
     download_answer_file(cloud_url, data_folder, i)
 
 def collate_answer_files(data_folder_path):
-    with open("output/collated_answers.txt", "w") as outfile:
+    output_folder_path = r"C:\Users\shash\Downloads\Data Science Project\ada_lovelace\output"
+    os.makedirs(output_folder_path, exist_ok=True)
+
+    output_path = os.path.join(output_folder_path, "collated_answers.txt")
+
+    with open(output_path, "w") as outfile:
         for i in range(1, 26):
-            file_path = f"{data_folder_path}/answers_respondent_{i}.txt"
+            file_path = os.path.join(data_folder_path, f"answers_respondent_{i}.txt")
+
             with open(file_path, "r") as infile:
                     outfile.write(f"Respondent {i}:\n")
                     outfile.write(infile.read())  
                     outfile.write("\n*\n")
+
+collate_answer_files(r"C:\Users\shash\Downloads\Data Science Project\ada_lovelace\data")
