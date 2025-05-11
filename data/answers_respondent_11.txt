@@ -26,25 +26,25 @@ Question 5. What is a syntax error in Python?
 [ ] An error in the logical flow of a program.
 [ ] An error that occurs during program execution.
 [ ] An error related to file input/output operations.
-[x] An error caused by incorrect use of Pythonâ€™s language rules.
+[x] An error caused by incorrect use of Python’s language rules.
 
 Question 6. What is a runtime error in Python?
 [ ] An error detected by the interpreter before the program runs.
-[ ] An error caused by incorrect syntax in the code.
-[x] An error that occurs while a program is running.
+[x] An error caused by incorrect syntax in the code.
+[ ] An error that occurs while a program is running.
 [ ] An error that Python silently ignores during execution.
 
 Question 7. What statement best describes Python as a programming language?
-[x] Python is a compiled language only.
+[ ] Python is a compiled language only.
 [ ] Python is an interpreted, high-level programming language.
-[ ] Python is limited to web development tasks.
+[x] Python is limited to web development tasks.
 [ ] Python does not support object-oriented programming.
 
 Question 8. What is a variable in Python?
-[ ] A name that refers to a value stored in memory.
+[x] A name that refers to a value stored in memory.
 [ ] A constant value that cannot change.
 [ ] A built-in Python function.
-[x] A reserved keyword in Python.
+[ ] A reserved keyword in Python.
 
 Question 9. Which of the following is a valid variable name in Python?
 [x] second_value
@@ -59,10 +59,10 @@ Question 10. What does the assignment operator ` = ` do in Python?
 [ ] It returns a value from a function.
 
 Question 11. Which of the following is an expression in Python?
-[x] if x == 5:
+[ ] if x == 5:
 [ ] for i in range(10):
 [ ] 2 + 3 * 4
-[ ] def my_function():
+[x] def my_function():
 
 Question 12. Which operator is used for exponentiation in Python?
 [ ] ^
@@ -89,8 +89,8 @@ Question 15. What is a function in Python?
 [ ] A conditional statement.
 
 Question 16. How do you define a function in Python?
-[x] Using the `def` keyword.
-[ ] Using the `function` keyword.
+[ ] Using the `def` keyword.
+[x] Using the `function` keyword.
 [ ] Using the `func` keyword.
 [ ] Using the `define` keyword.
 
@@ -116,7 +116,7 @@ Question 20. Which of these is a correct way to call a function named `compute` 
 [ ] call compute()
 [ ] execute compute
 [ ] run compute()
-[ ] compute()
+[x] compute()
 
 Question 21. What is a parameter in a Python function definition?
 [ ] A value returned by the function.
@@ -127,8 +127,8 @@ Question 21. What is a parameter in a Python function definition?
 Question 22. What is interface design in programming?
 [ ] The process of writing low-level code.
 [ ] A method for compiling code.
-[ ] The process of designing how a user interacts with a program.
-[x] A strategy for managing memory.
+[x] The process of designing how a user interacts with a program.
+[ ] A strategy for managing memory.
 
 Question 23. Which of the following is an example of a user interface element in a Python program?
 [ ] A database connection.
@@ -143,14 +143,14 @@ Question 24. Which of the following is important in interface design?
 [ ] Minimizing program functionality.
 
 Question 25. Why is error handling important in interface design?
-[ ] It improves user experience by providing helpful feedback.
-[ ] It slows down the programâ€™s execution.
+[x] It improves user experience by providing helpful feedback.
+[ ] It slows down the program’s execution.
 [ ] It eliminates the need for user input.
 [ ] It reduces the number of functions required.
 
 Question 26. What does modular design mean in programming?
-[x] Writing all code in a single large block.
-[ ] Breaking a program into separate, independent modules.
+[ ] Writing all code in a single large block.
+[x] Breaking a program into separate, independent modules.
 [ ] Designing interfaces without testing them.
 [ ] Using one function for all tasks.
 
@@ -158,12 +158,12 @@ Question 27. What is the benefit of using functions in interface design?
 [ ] They increase code repetition.
 [ ] They hide the user interface from the user.
 [x] They allow code reuse and better organization.
-[ ] They slow down the programâ€™s execution.
+[ ] They slow down the program’s execution.
 
 Question 28. How can you improve user interaction in a command-line application?
 [ ] By removing all prompts.
 [ ] By using complex error messages.
-[ ] By limiting the applicationâ€™s functionality.
+[ ] By limiting the application’s functionality.
 [x] By providing clear instructions and feedback.
 
 Question 29. What is a conditional statement in Python?
@@ -174,8 +174,8 @@ Question 29. What is a conditional statement in Python?
 
 Question 30. Which keyword is used for a conditional branch in Python?
 [ ] loop
-[x] def
-[ ] if
+[ ] def
+[x] if
 [ ] return
 
 Question 31. What is recursion in programming?
@@ -224,7 +224,7 @@ Question 38. What does the `return` statement do in a Python function?
 [ ] It terminates the entire program.
 [ ] It starts a loop within the function.
 [ ] It exits the function and optionally passes back a value.
-[ ] It declares a new variable.
+[x] It declares a new variable.
 
 Question 39. Which of the following is an example of a fruitful function in Python?
 [ ] def add(x, y): print(x + y)
@@ -257,10 +257,10 @@ Question 43. What is iteration in Python?
 [ ] A method for defining classes.
 
 Question 44. Which loop is commonly used for iterating over a sequence in Python?
-[x] do-while loop
+[ ] do-while loop
 [ ] until loop
 [ ] repeat loop
-[ ] for loop
+[x] for loop
 
 Question 45. How do you write a basic `for` loop in Python?
 [ ] for i in 1 to 10:
@@ -283,12 +283,12 @@ Question 47. Which keyword is used to exit a loop prematurely in Python?
 Question 48. What is the purpose of an accumulator variable in iteration?
 [x] To accumulate a running total or combined result.
 [ ] To count the number of loop iterations.
-[ ] To serve as the loopâ€™s index variable.
-[ ] To define the loopâ€™s termination condition.
+[ ] To serve as the loop’s index variable.
+[ ] To define the loop’s termination condition.
 
 Question 49. What happens if a loop in Python never terminates?
-[x] The program will hang or crash.
-[ ] The program completes successfully.
+[ ] The program will hang or crash.
+[x] The program completes successfully.
 [ ] The loop stops automatically after a timeout.
 [ ] The computer resets itself.
 
@@ -347,9 +347,9 @@ Question 58. How do you create an empty list in Python?
 [ ] my_list = <>
 
 Question 59. Which of the following is a valid list in Python?
-[ ] ('red', 'green', 'blue')
+[x] ('red', 'green', 'blue')
 [ ] {'red', 'green', 'blue'}
-[x] ['apple', 'banana', 'cherry']
+[ ] ['apple', 'banana', 'cherry']
 [ ] [red, green, blue]
 
 Question 60. How do you access the first element of a list named `items` in Python?
@@ -372,7 +372,7 @@ Question 62. How do you append an item `x` to a list named `lst` in Python?
 
 Question 63. What does the `len()` function return when applied to a list in Python?
 [ ] The last element of the list.
-[ ] The number of items in the list.
+[x] The number of items in the list.
 [ ] The first element of the list.
 [ ] A sorted copy of the list.
 
@@ -390,9 +390,9 @@ Question 65. Which of the following is not a valid Python operator?
 
 Question 66. What is the difference between a parameter and an argument in Python?
 [ ] A parameter is the value passed to a function, while an argument is defined in its signature.
-[ ] A parameter is defined in a functionâ€™s signature, while an argument is the value passed to it.
+[x] A parameter is defined in a function’s signature, while an argument is the value passed to it.
 [ ] They are two terms for the same concept.
-[x] Parameters are used in loops, while arguments are used in conditionals.
+[ ] Parameters are used in loops, while arguments are used in conditionals.
 
 Question 67. What does it mean for a function to have side effects in Python?
 [ ] It always returns a value.
@@ -407,28 +407,28 @@ Question 68. Why is user feedback important in interface design?
 [x] It helps improve usability and the overall experience.
 
 Question 69. What is the role of error messages in user interfaces?
-[x] They are intended only for developers to debug code.
-[ ] They slow down the programâ€™s execution.
-[ ] They have no practical purpose.
+[ ] They are intended only for developers to debug code.
+[ ] They slow down the program’s execution.
+[x] They have no practical purpose.
 [ ] They guide users to correct mistakes and understand issues.
 
 Question 70. What is the purpose of an `else` clause in a Python conditional statement?
 [ ] To repeat the `if` condition.
 [ ] To terminate the program.
-[ ] To execute code when the `if` condition is false.
-[x] To declare a new variable.
+[x] To execute code when the `if` condition is false.
+[ ] To declare a new variable.
 
 Question 71. How does the `elif` keyword function in Python?
-[ ] It ends the conditional block immediately.
-[x] It allows multiple conditions to be checked in sequence.
+[x] It ends the conditional block immediately.
+[ ] It allows multiple conditions to be checked in sequence.
 [ ] It defines a loop structure.
 [ ] It replaces the `if` keyword entirely.
 
 Question 72. What is a void function in Python?
-[ ] A function that does not return a value.
+[x] A function that does not return a value.
 [ ] A function that always returns a value.
 [ ] A function that only prints output.
-[x] A function defined without parameters.
+[ ] A function defined without parameters.
 
 Question 73. How can you reuse code with functions in Python?
 [x] By defining functions and calling them as needed.
@@ -437,8 +437,8 @@ Question 73. How can you reuse code with functions in Python?
 [ ] By avoiding the use of loops.
 
 Question 74. What is a lambda function in Python?
-[x] A function that returns a lambda object.
-[ ] An anonymous function defined using the `lambda` keyword.
+[ ] A function that returns a lambda object.
+[x] An anonymous function defined using the `lambda` keyword.
 [ ] A built-in function for mathematical operations.
 [ ] A function that reads user input.
 
@@ -468,19 +468,19 @@ Question 78. What is string concatenation in Python?
 
 Question 79. What is string interpolation in Python?
 [ ] A technique to split a string into substrings.
-[ ] A method for embedding variable values within a string.
+[x] A method for embedding variable values within a string.
 [ ] A method for comparing two strings.
-[x] A function to format numbers.
+[ ] A function to format numbers.
 
 Question 80. How do you determine the length of a string in Python?
-[x] By using the `len()` function.
+[ ] By using the `len()` function.
 [ ] By using the `count()` method.
-[ ] By subtracting indices manually.
+[x] By subtracting indices manually.
 [ ] By using the `size()` function.
 
 Question 81. What is the difference between a list and a tuple in Python?
-[x] Lists are mutable, while tuples are immutable.
-[ ] Lists are immutable, while tuples are mutable.
+[ ] Lists are mutable, while tuples are immutable.
+[x] Lists are immutable, while tuples are mutable.
 [ ] Both are mutable.
 [ ] Both are immutable.
 
@@ -504,7 +504,7 @@ Question 84. How can you iterate over each element in a list in Python?
 
 Question 85. What is the purpose of comments in Python source code?
 [ ] To execute additional instructions.
-[ ] To increase the programâ€™s execution speed.
+[ ] To increase the program’s execution speed.
 [ ] To generate output for the user.
 [x] To explain and clarify the code for humans.
 
@@ -548,7 +548,7 @@ Question 92. How do you import a module in Python?
 [ ] Using the `include` statement.
 [ ] Using the `require()` function.
 [ ] Using the `load()` function.
-[ ] Using the `import` statement.
+[x] Using the `import` statement.
 
 Question 93. What does the `if __name__ == " __main__":` construct do in Python?
 [ ] It imports the main module.
@@ -557,9 +557,9 @@ Question 93. What does the `if __name__ == " __main__":` construct do in Python?
 [x] It checks if the script is being run as the main program.
 
 Question 94. How do you handle exceptions in Python?
-[ ] By using `if` statements alone.
+[x] By using `if` statements alone.
 [ ] By using loops to retry operations.
-[x] By using `try` and `except` blocks.
+[ ] By using `try` and `except` blocks.
 [ ] By defining new variables.
 
 Question 95. What type of problems is recursion best suited for in Python?
@@ -593,8 +593,8 @@ Question 99. What is the difference between a `while` loop and a `for` loop in P
 [ ] A `for` loop is used exclusively for recursion.
 
 Question 100. How do you convert a number to a string in Python?
-[x] Using the `int()` function.
+[ ] Using the `int()` function.
 [ ] Using the `float()` function.
 [ ] Using the `list()` function.
-[ ] Using the `str()` function.
+[x] Using the `str()` function.
 

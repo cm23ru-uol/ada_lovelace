@@ -26,7 +26,7 @@ Question 5. What is a syntax error in Python?
 [ ] An error in the logical flow of a program.
 [ ] An error that occurs during program execution.
 [ ] An error related to file input/output operations.
-[x] An error caused by incorrect use of Pythonâ€™s language rules.
+[x] An error caused by incorrect use of Python’s language rules.
 
 Question 6. What is a runtime error in Python?
 [ ] An error detected by the interpreter before the program runs.
@@ -144,7 +144,7 @@ Question 24. Which of the following is important in interface design?
 
 Question 25. Why is error handling important in interface design?
 [x] It improves user experience by providing helpful feedback.
-[ ] It slows down the programâ€™s execution.
+[ ] It slows down the program’s execution.
 [ ] It eliminates the need for user input.
 [ ] It reduces the number of functions required.
 
@@ -158,12 +158,12 @@ Question 27. What is the benefit of using functions in interface design?
 [ ] They increase code repetition.
 [ ] They hide the user interface from the user.
 [x] They allow code reuse and better organization.
-[ ] They slow down the programâ€™s execution.
+[ ] They slow down the program’s execution.
 
 Question 28. How can you improve user interaction in a command-line application?
 [ ] By removing all prompts.
 [ ] By using complex error messages.
-[ ] By limiting the applicationâ€™s functionality.
+[ ] By limiting the application’s functionality.
 [x] By providing clear instructions and feedback.
 
 Question 29. What is a conditional statement in Python?
@@ -283,8 +283,8 @@ Question 47. Which keyword is used to exit a loop prematurely in Python?
 Question 48. What is the purpose of an accumulator variable in iteration?
 [x] To accumulate a running total or combined result.
 [ ] To count the number of loop iterations.
-[ ] To serve as the loopâ€™s index variable.
-[ ] To define the loopâ€™s termination condition.
+[ ] To serve as the loop’s index variable.
+[ ] To define the loop’s termination condition.
 
 Question 49. What happens if a loop in Python never terminates?
 [x] The program will hang or crash.
@@ -390,7 +390,7 @@ Question 65. Which of the following is not a valid Python operator?
 
 Question 66. What is the difference between a parameter and an argument in Python?
 [ ] A parameter is the value passed to a function, while an argument is defined in its signature.
-[x] A parameter is defined in a functionâ€™s signature, while an argument is the value passed to it.
+[x] A parameter is defined in a function’s signature, while an argument is the value passed to it.
 [ ] They are two terms for the same concept.
 [ ] Parameters are used in loops, while arguments are used in conditionals.
 
@@ -408,7 +408,7 @@ Question 68. Why is user feedback important in interface design?
 
 Question 69. What is the role of error messages in user interfaces?
 [ ] They are intended only for developers to debug code.
-[ ] They slow down the programâ€™s execution.
+[ ] They slow down the program’s execution.
 [ ] They have no practical purpose.
 [x] They guide users to correct mistakes and understand issues.
 
@@ -504,7 +504,7 @@ Question 84. How can you iterate over each element in a list in Python?
 
 Question 85. What is the purpose of comments in Python source code?
 [ ] To execute additional instructions.
-[ ] To increase the programâ€™s execution speed.
+[ ] To increase the program’s execution speed.
 [ ] To generate output for the user.
 [x] To explain and clarify the code for humans.
 

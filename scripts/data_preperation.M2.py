@@ -1,20 +1,43 @@
-def download_answer_files(string cloud_url, string path_to_data_folder, int respondent_index)
-#• Input: Cloud service URL containing files named a1.txt, a2.txt, ...,
-#an.txt.
+import requests
+import os
 
-#• Output: Saves files to the data/ folder as answers_respondent_1.txt,
-#answers_respondent_2.txt, ..., answers_respondent_n.txt.
+#https://raw.githubusercontent.com/djph7758-uol/Data/refs/heads/main/quiz_answers_named_a1_to_a25/a1.txt
+        
+def download_answer_file(cloud_url, path_to_data_folder, respondent_index):
 
-#• Purpose: Retrieve and rename raw answer files from the cloud.
+    # Make sure the folder exists (or create it)
+    os.makedirs(path_to_data_folder, exist_ok=True)
 
+    # Build URL and output path
+    filename = f"a{respondent_index}.txt"
+    url = f"{cloud_url}/{filename}"
+    out_path = os.path.join(path_to_data_folder, f"answers_respondent_{respondent_index}.txt")
 
-def collate_answer_respondent_index(string data_folder_path)
+    # Print diagnostics
+    print("→ Current working directory:", os.getcwd())
+    print("→ Absolute output path:    ", os.path.abspath(out_path))
+    print("→ Downloading from URL:     ", url)
 
+    # Download
+    resp = requests.get(url)
+    resp.raise_for_status()
+   
+    # Write to disk
+    with open(out_path, "w") as fout:
+        fout.write(resp.text)
 
-#• Input: Path to the data/ folder containing individual answer files.
+# Call the function
+cloud_url = "https://raw.githubusercontent.com/djph7758-uol/Data/refs/heads/main/quiz_answers_named_a1_to_a25"
+data_folder = r"C:\Users\shash\Downloads\Data Science Project\ada_lovelace\data"
 
-#• Output: Single file collated_answers.txt in output/, with respondent
-#sections separated by a line containing one asterisk (*).
+for i in range(1, 26):
+    download_answer_file(cloud_url, data_folder, i)
 
-#• Purpose: Combine all respondent data into a unified file
-
+def collate_answer_files(data_folder_path):
+    with open("output/collated_answers.txt", "w") as outfile:
+        for i in range(1, 26):
+            file_path = f"{data_folder_path}/answers_respondent_{i}.txt"
+            with open(file_path, "r") as infile:
+                    outfile.write(f"Respondent {i}:\n")
+                    outfile.write(infile.read())  
+                    outfile.write("\n*\n")

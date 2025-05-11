@@ -11,9 +11,9 @@ Question 2. What is an algorithm?
 [ ] A method for debugging code.
 
 Question 3. What distinguishes an interpreter from a compiler?
-[x] An interpreter compiles code into machine language before execution.
+[ ] An interpreter compiles code into machine language before execution.
 [ ] A compiler executes code line by line without prior compilation.
-[ ] An interpreter executes code line by line without compiling it first.
+[x] An interpreter executes code line by line without compiling it first.
 [ ] There is no difference between an interpreter and a compiler.
 
 Question 4. What is debugging?
@@ -23,10 +23,10 @@ Question 4. What is debugging?
 [x] The process of finding and fixing errors in a program.
 
 Question 5. What is a syntax error in Python?
-[x] An error in the logical flow of a program.
+[ ] An error in the logical flow of a program.
 [ ] An error that occurs during program execution.
 [ ] An error related to file input/output operations.
-[ ] An error caused by incorrect use of Pythonâ€™s language rules.
+[x] An error caused by incorrect use of Python’s language rules.
 
 Question 6. What is a runtime error in Python?
 [ ] An error detected by the interpreter before the program runs.
@@ -144,7 +144,7 @@ Question 24. Which of the following is important in interface design?
 
 Question 25. Why is error handling important in interface design?
 [x] It improves user experience by providing helpful feedback.
-[ ] It slows down the programâ€™s execution.
+[ ] It slows down the program’s execution.
 [ ] It eliminates the need for user input.
 [ ] It reduces the number of functions required.
 
@@ -158,12 +158,12 @@ Question 27. What is the benefit of using functions in interface design?
 [ ] They increase code repetition.
 [ ] They hide the user interface from the user.
 [x] They allow code reuse and better organization.
-[ ] They slow down the programâ€™s execution.
+[ ] They slow down the program’s execution.
 
 Question 28. How can you improve user interaction in a command-line application?
 [ ] By removing all prompts.
 [ ] By using complex error messages.
-[ ] By limiting the applicationâ€™s functionality.
+[ ] By limiting the application’s functionality.
 [x] By providing clear instructions and feedback.
 
 Question 29. What is a conditional statement in Python?
@@ -185,9 +185,9 @@ Question 31. What is recursion in programming?
 [ ] A method for handling input/output.
 
 Question 32. Which statement best describes a base case in recursion?
-[ ] The condition that stops a recursive function from calling itself.
+[x] The condition that stops a recursive function from calling itself.
 [ ] The condition that starts a loop iteration.
-[x] The first call of a recursive function.
+[ ] The first call of a recursive function.
 [ ] A variable used in recursion.
 
 Question 33. What is the purpose of an `if-else` statement in Python?
@@ -203,9 +203,9 @@ Question 34. Which operator is used for equality comparison in Python?
 [ ]  === 
 
 Question 35. What happens if a recursive function in Python lacks a base case?
-[x] It returns immediately without error.
+[ ] It returns immediately without error.
 [ ] The recursion stops automatically after one call.
-[ ] It may call itself indefinitely, causing a stack overflow.
+[x] It may call itself indefinitely, causing a stack overflow.
 [ ] The program compiles but does not run.
 
 Question 36. What is a fruitful function in Python?
@@ -227,16 +227,16 @@ Question 38. What does the `return` statement do in a Python function?
 [ ] It declares a new variable.
 
 Question 39. Which of the following is an example of a fruitful function in Python?
-[x] def add(x, y): print(x + y)
-[ ] def add(x, y): return x + y
+[ ] def add(x, y): print(x + y)
+[x] def add(x, y): return x + y
 [ ] def add(x, y): x + y
 [ ] def add(x, y): None
 
 Question 40. What is the purpose of a helper function in Python?
-[ ] To break down complex tasks into simpler sub-tasks.
+[x] To break down complex tasks into simpler sub-tasks.
 [ ] To confuse the programmer.
 [ ] To increase the size of the codebase unnecessarily.
-[x] To serve as the main entry point of a program.
+[ ] To serve as the main entry point of a program.
 
 Question 41. How do you capture the return value of a function in Python?
 [x] By assigning the function call to a variable.
@@ -283,8 +283,8 @@ Question 47. Which keyword is used to exit a loop prematurely in Python?
 Question 48. What is the purpose of an accumulator variable in iteration?
 [x] To accumulate a running total or combined result.
 [ ] To count the number of loop iterations.
-[ ] To serve as the loopâ€™s index variable.
-[ ] To define the loopâ€™s termination condition.
+[ ] To serve as the loop’s index variable.
+[ ] To define the loop’s termination condition.
 
 Question 49. What happens if a loop in Python never terminates?
 [x] The program will hang or crash.
@@ -305,10 +305,10 @@ Question 51. How are strings defined in Python?
 [ ] Using backticks.
 
 Question 52. Which of the following is a valid string in Python?
-[ ] Hello World
+[x] Hello World
 [ ] Hello, World!
 [ ] Hello, World!
-[x] 'Hello, World!'
+[ ] 'Hello, World!'
 
 Question 53. What does string slicing do in Python?
 [ ] Splits a string into a list of words.
@@ -390,14 +390,14 @@ Question 65. Which of the following is not a valid Python operator?
 
 Question 66. What is the difference between a parameter and an argument in Python?
 [ ] A parameter is the value passed to a function, while an argument is defined in its signature.
-[x] A parameter is defined in a functionâ€™s signature, while an argument is the value passed to it.
+[x] A parameter is defined in a function’s signature, while an argument is the value passed to it.
 [ ] They are two terms for the same concept.
 [ ] Parameters are used in loops, while arguments are used in conditionals.
 
 Question 67. What does it mean for a function to have side effects in Python?
 [ ] It always returns a value.
-[x] It has no external impact and is a pure function.
-[ ] It modifies some state or variable outside its local environment.
+[ ] It has no external impact and is a pure function.
+[x] It modifies some state or variable outside its local environment.
 [ ] It only uses local variables.
 
 Question 68. Why is user feedback important in interface design?
@@ -408,7 +408,7 @@ Question 68. Why is user feedback important in interface design?
 
 Question 69. What is the role of error messages in user interfaces?
 [ ] They are intended only for developers to debug code.
-[ ] They slow down the programâ€™s execution.
+[ ] They slow down the program’s execution.
 [ ] They have no practical purpose.
 [x] They guide users to correct mistakes and understand issues.
 
@@ -468,8 +468,8 @@ Question 78. What is string concatenation in Python?
 
 Question 79. What is string interpolation in Python?
 [ ] A technique to split a string into substrings.
-[x] A method for embedding variable values within a string.
-[ ] A method for comparing two strings.
+[ ] A method for embedding variable values within a string.
+[x] A method for comparing two strings.
 [ ] A function to format numbers.
 
 Question 80. How do you determine the length of a string in Python?
@@ -504,7 +504,7 @@ Question 84. How can you iterate over each element in a list in Python?
 
 Question 85. What is the purpose of comments in Python source code?
 [ ] To execute additional instructions.
-[ ] To increase the programâ€™s execution speed.
+[ ] To increase the program’s execution speed.
 [ ] To generate output for the user.
 [x] To explain and clarify the code for humans.
 
@@ -563,9 +563,9 @@ Question 94. How do you handle exceptions in Python?
 [ ] By defining new variables.
 
 Question 95. What type of problems is recursion best suited for in Python?
-[x] Problems requiring simple iterative loops only.
+[ ] Problems requiring simple iterative loops only.
 [ ] Problems that can be divided into similar subproblems.
-[ ] Problems with no base case.
+[x] Problems with no base case.
 [ ] Problems that do not need a solution.
 
 Question 96. What does the `break` statement do in a Python loop?
