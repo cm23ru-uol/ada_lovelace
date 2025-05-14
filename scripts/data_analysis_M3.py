@@ -46,12 +46,12 @@ def visualize_data (collated_answers,n):
         plt.title('mean answer per question')
         plt.xlabel("number of question")
         plt.ylabel("mean value")
-        plt.show
+        plt.show()
     elif n ==2:
         for seq in data:
             plt.title("individual answers")
             plt.xlabel("number of question")
             plt.ylabel("answer")
-            plt.show
+            plt.show()
     else:
         print("invalid value for n")
