@@ -12,7 +12,7 @@ def extract_answers_sequence(file_path):
     mark = None
 
     # open file and read line by line
-    with open(file_path, 'r', encoding='utf-8') as f:
+    with open(file_path, 'r', encoding='cp1252') as f:
         for line in f:
             line = line.rstrip()  # remove tail spaces/newline
 
