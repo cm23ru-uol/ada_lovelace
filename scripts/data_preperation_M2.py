@@ -27,16 +27,12 @@ def download_answer_file(cloud_url, path_to_data_folder, respondent_index):
         fout.write(resp.text)
 
 # Call the function
-cloud_url = "https://raw.githubusercontent.com/djph7758-uol/Data/refs/heads/main/quiz_answers_named_a1_to_a25"
-data_folder = r"C:\Users\shash\Downloads\Data Science Project\ada_lovelace\data"
+#cloud_url = "https://raw.githubusercontent.com/djph7758-uol/Data/refs/heads/main/quiz_answers_named_a1_to_a25"
 
-for i in range(1, 26):
-    download_answer_file(cloud_url, data_folder, i)
+#for i in range(1, 26):
+#    download_answer_file(cloud_url, data_folder, i)
 
-data_folder_path = r"C:\Users\shash\Downloads\Data Science Project\ada_lovelace\data"
-
-def collate_answer_files(data_folder_path):
-    output_folder_path = r"C:\Users\shash\Downloads\Data Science Project\ada_lovelace\output"
+def collate_answer_files(data_folder_path,output_folder_path):
     os.makedirs(output_folder_path, exist_ok=True)
 
     output_path = os.path.join(output_folder_path, "collated_answers.txt")
